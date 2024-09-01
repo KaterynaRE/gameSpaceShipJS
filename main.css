@@ -1,0 +1,174 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+}
+
+canvas {
+    border: 1px solid #000;
+    background-color: black;
+    position: fixed;
+    left: 10vw;
+    top: 5vh;
+}
+.forHP{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+    position: fixed;
+    right: 0;
+    width: 20vw;
+    height: 100%;
+    border: 2px solid #074930d2;
+    border-radius: 10px;
+}
+
+#hiScore {
+    text-align: center;
+    font-size: 2vw;
+    font-family: Arial, sans-serif;
+    position: fixed;
+    top: 2vh;
+    right: 9vw;
+    color: black;
+}
+
+#scoreMain {
+    position: fixed;
+    right: 5vw;
+    top: 12vh;
+    border: 2px solid #074930d2;
+    border-radius: 10px;
+    padding: 1vh 2vw;
+    font-size: 2vw;
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+}
+
+#pId{
+    position: fixed;
+    top: 21vh;
+    right: 13vw;
+    font-weight: bolder;
+    font-size: 2vw;
+    letter-spacing: 3px;
+    font-family: 'Russo One', sans-serif;
+    text-transform: uppercase;
+}
+#patronId {
+    position: fixed;
+    right: 5vw;
+    top: 31vh;
+    border: 2px solid #074930d2;
+    border-radius: 10px;
+    padding: 1vh 2vw;
+    font-size: 2vw;
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+}
+#heartID {
+    width: max-content;
+    height: 5vh;
+    border: 2px solid #074930d2;
+    padding: 1vh 2vw;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px; /* Відстань між серцями */
+    border-radius: 10px;
+    position: fixed;
+    right: 5vw;
+    top: 49vh;
+}
+#hpP{
+    text-align: center;
+    font-size: 2vw;
+    font-family: Arial, sans-serif;
+    position: fixed;
+    top: 38vh;
+    right: 16vw;
+    color: black;
+}
+.heartClass {
+    position: relative;
+    top: 4px;
+    width: 30px;
+    height: 30px;
+}
+#divGameOver{
+    z-index: 1000;
+    position: fixed;
+    width: 69.9vw;
+    height: 98vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    left: 5vw;
+}
+#pDiv{
+    position: fixed;
+    top: 20vh;
+    left: 10vw;
+    color: white;
+    font-family: "Book Antiqua";
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-size: 8vw;
+    font-weight: bolder;
+}
+
+#btnStart {
+    position: fixed;
+    z-index: 1000;
+    justify-content: space-around;
+    transform: translateX(-50%);
+    top: 82vh;
+    right: 0vw;
+    width: 10vw;
+    height: 8vh;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid #074930d2;
+    font-size: 2vw;
+    font-family: Arial, sans-serif;
+}
+
+#btnStart:hover {
+    background-color: #FFFACD;
+    box-shadow: inset 2px 2px 6px #4169E1, inset -2px -2px 4px #4169E1;
+}
+#bulletImg{
+    width: 59px;
+    height: 40px;
+    position: relative;
+    top: -10px;
+}
+
+#scoreUserP {
+    position: fixed;
+    font-size: 2vw;
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+    top: 56.8vh;
+    color: black;
+    right: 5.5vw;
+}
+#scoreUser {
+    position: fixed;
+    border: 2px solid #074930d2;
+    border-radius: 10px;
+    padding: 1vh 2vw;
+    font-size: 2vw;
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+    top: 69.8vh;
+    right: 5vw;
+}
